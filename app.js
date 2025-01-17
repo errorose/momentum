@@ -1,12 +1,7 @@
-const a = 5;
-const b = 2;
-let myName = "yeseul";
+const amICat = false;
+const amIDog = null;
+let something;
 
-console.log(a + 2);
-console.log(a * 2);
-console.log(a / 2);
-console.log("helo " + myName);
-
-myName = "kuromi";
-
-console.log("your new name is " + myName);
+console.log(amICat);
+console.log(amIDog);
+console.log(something);
