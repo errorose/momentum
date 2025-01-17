@@ -1,10 +1,18 @@
-const daysOfWeek = ["월", "화", "수", "목", "금", "토"];
-console.log(daysOfWeek);
+const player = {
+    name: "kuromi",
+    point: 10,
+    animal: true,
+};
 
-// Add one more day to the array
-daysOfWeek.push("일");
+console.log(player);
+// console.log(player.name);
+// console.log(player["point"]);
 
-console.log(daysOfWeek);
+player.animal = false;
+console.log(player.animal);
 
-// Get Item from Array
-console.log(daysOfWeek[6]);
+player.point = player.point + 5;
+console.log(player.point);
+
+player.lastName = "yoon";
+console.log(player);
