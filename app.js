@@ -1,7 +1,10 @@
-const amICat = false;
-const amIDog = null;
-let something;
+const daysOfWeek = ["월", "화", "수", "목", "금", "토"];
+console.log(daysOfWeek);
 
-console.log(amICat);
-console.log(amIDog);
-console.log(something);
+// Add one more day to the array
+daysOfWeek.push("일");
+
+console.log(daysOfWeek);
+
+// Get Item from Array
+console.log(daysOfWeek[6]);
