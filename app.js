@@ -1,3 +1,8 @@
-console.log(1 + 1);
-console.log(1 + 1.5);
-console.log("hello " + "my name is yeseul");
+const a = 5;
+const b = 2;
+const myName = "yeseul";
+
+console.log(a + 2);
+console.log(a * 2);
+console.log(a / 2);
+console.log("helo " + myName);
