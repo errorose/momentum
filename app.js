@@ -1,32 +1,24 @@
-function sayHello(nameOfPerson, ageOfPerson) {
-    console.log("Hello my name is " + nameOfPerson + " and I'm " + ageOfPerson);
-}
+// a + b
+// a - b
+// a / b
+// a**b
 
-sayHello("kuromi", 10);
-sayHello("pikachu", 20);
-sayHello("kitty", 30);
-
-function plus(firstNumber, secondNumber) {
-    console.log(firstNumber + secondNumber);
-}
-
-plus(60, 8);
-
-function divide(firstNumber, secondNumber) {
-    console.log(firstNumber / secondNumber);
-}
-
-divide(98, 20);
-
-console.log("-----");
-
-const player = {
-    name: "kuromi",
-    sayHello: function (otherPersonName) {
-        console.log("Hello! " + otherPersonName);
+const calculator = {
+    add: function (a, b) {
+        console.log(a + b);
+    },
+    minus: function (a, b) {
+        console.log(a - b);
+    },
+    divide: function (a, b) {
+        console.log(a / b);
+    },
+    power: function (a, b) {
+        console.log(a ** b);
     },
 };
 
-console.log(player.name);
-player.sayHello("yeseul");
-player.sayHello("yoon");
+calculator.add(1, 2);
+calculator.minus(1, 2);
+calculator.divide(1, 2);
+calculator.power(1, 2);
