@@ -5,20 +5,3 @@
     font-weight: normal;
     font-style: normal;
 }
-
-body {
-    background-color: pink;
-}
-
-h1 {
-    color: cornflowerblue;
-    transition: color 0.5s ease-in-out;
-}
-
-.active {
-    color: tomato;
-}
-
-.sexy-font {
-    font-family: "CookieRun-Regular";
-}
